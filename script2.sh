@@ -22,4 +22,3 @@ function makefiles2 () {
 			touch $fname
 		done
 }
-makefiles2

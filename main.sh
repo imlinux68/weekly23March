@@ -19,7 +19,8 @@ while :
 		case $choice in
  
 			1) makedirs ;;
-			2) makefiles $@ ;;
+			2) makefiles2 ;;
+################	2) makefiles $@ ;;
 			3) break ;;
 			*) echo "nums from 1 to 3 ONLY" ; sleep 3 ;;
 		esac
